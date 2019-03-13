@@ -1,0 +1,31 @@
+{
+  "name": "usersapi",
+  "version": "1.0.0",
+  "description": "RESTful users api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Ghassan Mina",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "express-jwt": "^5.1.0",
+    "express-session": "^1.15.2",
+    "helmet": "^3.5.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.0",
+    "nodemailer": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "rand-token": "^0.3.0"
+  }
+}
